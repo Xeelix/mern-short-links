@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=production node app.js",
+    "start": "node app.js",
     "server": "nodemon app.js",
     "client": "npm run start --prefix client",
     "client:install": "npm install --prefix client",
@@ -27,8 +27,8 @@
     "shortid": "^2.2.16"
   },
   "devDependencies": {
-    "concurrently": "^6.2.1",
     "cross-env": "^7.0.3",
+    "concurrently": "^6.2.1",
     "nodemon": "^2.0.12"
   }
 }
