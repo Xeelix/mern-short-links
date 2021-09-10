@@ -18,7 +18,7 @@ if (process.env.NODE_ENV === 'production') {
     })
 }
 
-const PORT = config.get('port') || 5000
+const PORT = 80
 
 app.post("/test", function (req, res) {
     res.send(req.body);
