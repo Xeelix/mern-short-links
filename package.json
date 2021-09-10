@@ -10,7 +10,7 @@
     "client:install": "npm install --prefix client",
     "client:build": "CI=false && npm run build --prefix client",
     "build": "cd client && npm run build",
-    "install-client": "cd client && npm intsall",
+    "install-client": "cd client && npm instsall",
     "heroku-postbuild": "npm run install-client && npm run build",
     "dev": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run client\""
   },
