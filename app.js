@@ -34,7 +34,7 @@ async function start() {
 }
 start()
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
     console.log(`listening on port ${PORT}`);
     console.log(`Node env:  ${process.env.NODE_ENV}`);
 })
